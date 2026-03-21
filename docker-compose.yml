@@ -1,0 +1,15 @@
+version: "3"
+services:
+  backend:
+    build: ./backend
+    image : ajay2929/fullstack-deploy-docker-on-ec2:01
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build: ./frontend
+    image : ajay2929/fullstack-deploy-docker-on-ec2:02
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
