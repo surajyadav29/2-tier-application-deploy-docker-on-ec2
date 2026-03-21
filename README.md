@@ -15,11 +15,11 @@ The frontend and backend are deployed in separate Docker containers. Nginx route
 ## Project Structure
 
 project-root/
-├── backend/ # Node.js backend Docker setup
-├── frontend/ # React frontend Docker setup
-├── nginx/ # Nginx configuration (default.conf)
-├── Dockerfile # Dockerfiles for backend/frontend
-└── docker-compose.yml # Optional for local multi-container setup
+1. backend/ # Node.js backend Docker setup
+2. frontend/ # React frontend Docker setup
+3. nginx/ # Nginx configuration (default.conf)
+4. Dockerfile # Dockerfiles for backend/frontend
+5. docker-compose.yml # Optional for local multi-container setup
 
 ## Features
 
